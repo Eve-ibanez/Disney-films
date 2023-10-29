@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css"> 
+    <link href="https://fonts.googleapis.com/css2?family=Agbalumo&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="page-title">
+            Mis peliculas de Disney
+        </h1>
+        <img src="https://user-images.githubusercontent.com/121910576/257302088-d2a9edb6-75e5-4118-aaba-6f53da7715dc.png" class="page-logo" alt="">
+    </div>
+    <a href="https://www.aluracursos.com/" target="_blank">
+        <img src="https://www.aluracursos.com/assets/img/home/alura-logo.1686744883.svg" alt="" class="alura-latam-logo">
+    </a>
+
+    
+    <form class="form-div" id="filmForm"> 
+        <div>
+            <div class="form"> 
+                <p class="subtitle"> ¿Cual es tu pelicula de Disney favorita?</p>
+                <input type="text" id="film" name="film" placeholder="Copia y pega el enlace de tu pelicula...">
+            </div>
+        </div>
+        <div>
+            <div class="form"> 
+                <p class="subtitle"> ¿Cual es el nombre de tu pelicula de Disney favorita?</p>
+                <input type="text" id="name-film" name="name-film" placeholder="Escribe el nombre de tu pelicula">
+            </div>
+        </div>
+        <div>
+            <div class="form">
+                <p class="subtitle"> Envianos el trailer de tu pelicula!</p>
+                <input type="text" id="trailer-film" name="trailer-film" placeholder="Copia y pega el trailer de tu pelicula">
+            </div>
+        </div>
+    </form>
+    <button class="button" type="button" onclick="addFilm()">Agregar película</button>
+    <div id="listFilms">
+        
+    </div>
+
+    <script src="main.js"> </script>
+</body>
+</html>
